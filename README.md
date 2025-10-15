@@ -1,1 +1,2 @@
-# coding-agent-example
+# Coding Agent CLI
+

@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "description": "作成するファイルのパス"
+    },
+    "content": {
+      "type": "string",
+      "description": "ファイルに書き込む内容"
+    }
+  },
+  "required": [
+    "path",
+    "content"
+  ],
+  "additionalProperties": false
+}

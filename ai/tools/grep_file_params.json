@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "description": "検索を開始するディレクトリのパス"
+    },
+    "keyword": {
+      "type": "string",
+      "description": "検索するキーワード"
+    },
+    "case_sensitive": {
+      "type": "boolean",
+      "description": "大文字小文字を区別するかどうか"
+    }
+  },
+  "required": [
+    "path",
+    "keyword",
+    "case_sensitive"
+  ],
+  "additionalProperties": false
+}
